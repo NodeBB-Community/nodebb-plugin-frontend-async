@@ -4,7 +4,7 @@ Do you use `async` library on client side in your plugins?
 I do a lot. And I find it quite troublesome to put the library almost in each and every plugin I make. Furthermore, it rather more troublesome then to `require` the library in a manner like this:
 
 ```js
-require(['../../plugins/nodebb-plugin-my-long-plugin-name/public/js/vendor/async/dist/async.min'], function (_) {
+require(['../../plugins/nodebb-plugin-my-long-plugin-name/public/js/vendor/async/dist/async.min'], function (async) {
     //
 });
 ```
@@ -15,7 +15,7 @@ Now imagine if you use the `async` library in your plugin a, plugin b and plugin
 
 After installing this plugin you will be able to:
 ```js
-require(['async'], function (_) {
+require(['async'], function (async) {
     // now you can use the latest stable "async": "^1.5.0"
 });
 ```
