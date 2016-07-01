@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-frontend-async",
+  "version": "0.0.1",
+  "description": "Easy Async for NodeBB on client side",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "main": "echo \"Error: no main script specified\" && exit 1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeBB-Community/nodebb-plugin-frontend-async.git"
+  },
+  "keywords": [
+    "nodebb",
+    "async",
+    "frontend"
+  ],
+  "author": "Mega <Aza.Noriega@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NodeBB-Community/nodebb-plugin-frontend-async/issues"
+  },
+  "homepage": "https://github.com/NodeBB-Community/nodebb-plugin-frontend-async#readme"
+}

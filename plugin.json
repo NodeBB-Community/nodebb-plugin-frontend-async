@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-frontend-async",
+	"name": "Easy Async for NodeBB on client side",
+	"scripts": [
+		"public/requirejs-inject.js"
+	],
+	"staticDirs": {
+		"async": "../async"
+	}
+}

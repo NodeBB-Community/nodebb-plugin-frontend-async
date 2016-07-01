@@ -1,0 +1,4 @@
+# These files are text and should be normalized (convert crlf => lf)
+*.json		text
+*.js		text
+*.md		text
