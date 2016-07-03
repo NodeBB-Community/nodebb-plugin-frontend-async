@@ -29,6 +29,18 @@ npm install nodebb-plugin-frontend-async
 ```
 Or via NodeBB Admin panel.
 
+To get this plugin installed automatically along with your plugin, just specify in your `plugin.json`
+```js
+"dependencies": {
+	"nodebb-plugin-frontend-async": "^0"
+},
+"peerDependencies": {
+	"nodebb-plugin-frontend-async": "^0"
+}
+```
+Why both `dependencies` and `peerDependencies`? That's because of different behavior in npm v2 and npm v3. You can read more about the issue and the workaround in [this blog post](https://codingwithspike.wordpress.com/2016/01/21/dealing-with-the-deprecation-of-peerdependencies-in-npm-3/)
+
+**Don't forget to Enable the plugin in the Admin panel after installing.**
 #### Information
 The plugin:  
 1. doesn't modify any source of NodeBB  
