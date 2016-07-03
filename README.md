@@ -40,7 +40,7 @@ To get this plugin installed automatically along with your plugin, just specify 
 ```
 Why both `dependencies` and `peerDependencies`? That's because of different behavior in npm v2 and npm v3. You can read more about the issue and the workaround in [this blog post](https://codingwithspike.wordpress.com/2016/01/21/dealing-with-the-deprecation-of-peerdependencies-in-npm-3/)
 
-**Don't forget to Enable the plugin in the Admin panel after installing.**
+**Don't forget to Enable the plugin in the Admin panel after installing. And to instruct your plugin users to do that little extra step!**
 #### Information
 The plugin:  
 1. doesn't modify any source of NodeBB  
