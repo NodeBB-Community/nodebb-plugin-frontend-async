@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-frontend-async",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Easy Async for NodeBB on client side",
   "nbbpm": {
     "compatibility": "^1.0.0"
